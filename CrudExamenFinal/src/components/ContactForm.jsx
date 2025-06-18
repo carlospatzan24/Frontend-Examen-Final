@@ -26,7 +26,6 @@ function ContactForm() {
   const [submitStatus, setSubmitStatus] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Cargar razones de contacto al montar el componente
   useEffect(() => {
     const fetchReasons = async () => {
       try {
